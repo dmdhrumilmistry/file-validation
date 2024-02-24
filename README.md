@@ -1,6 +1,8 @@
 # File Validation
 
-AWS File validation using lambda function using AI/ML model from Google's Magika Project
+AWS File validation using lambda function using AI/ML model from Google's Magika Project.
+
+For more details read [post](https://dmdhrumilmistry.gitbook.io/home/blog/secure-software-development/validating-file-content-types-to-avoid-malicious-file-hosting-using-ml-model)
 
 ## Usage
 
