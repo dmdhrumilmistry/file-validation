@@ -4,6 +4,8 @@ AWS File validation using lambda function using AI/ML model from Google's Magika
 
 For more details read [post](https://dmdhrumilmistry.gitbook.io/home/blog/secure-software-development/validating-file-content-types-to-avoid-malicious-file-hosting-using-ml-model)
 
+![File-Validation-Flow](./.assets/images/file-validation-flow.png)
+
 ## Usage
 
 ### Using Amazon ECR
