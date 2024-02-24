@@ -1,0 +1,19 @@
+service: file-validation-service
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+  ecr:
+    images:
+      file-validation-image:
+        path: ./
+        platform: linux/amd64
+
+functions:
+  file-validation:
+    image:
+      name: file_validation
+      command: file_validation.lambda_handler
+    # setting timeout  for lambda function
+    timeout: 360
